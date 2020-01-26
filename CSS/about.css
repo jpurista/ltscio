@@ -1,0 +1,22 @@
+
+h1{
+	padding-top: 15px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+body{
+		font-family: 'Raleway', sans-serif;
+
+}
+#about-text {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+
+}
+
+ #about-text h4, #about-text h5 {
+	font-weight: 200;
+}   

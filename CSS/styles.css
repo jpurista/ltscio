@@ -1,0 +1,65 @@
+body {
+
+  font-family: 'Open Sans', sans-serif;
+}
+
+#activeDrop {
+	background-color: gainsboro;
+}
+
+.navbar-brand {
+	font-family: 'Mansalva', cursive;
+}
+
+.carousel-indicators {
+ filter: invert(100%);
+}
+
+@media screen and (min-width: 401px) {
+#scio-logo {
+		margin-top: 20px;
+		width: 65vw;
+	}
+
+
+	#div-main {
+		text-align: center;
+		margin-left: 7vw;
+		margin-right: 7vw;
+	}
+
+	#slideshow {
+		width: 35vw;
+	}
+
+	.carousel img {
+	    margin: 5vw;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#scio-logo {
+		margin-top: 20px;
+		width: 65vw;
+	}
+
+	#div-main {
+		text-align: center;
+		margin-left: 7vw;
+		margin-right: 7vw;
+	}
+
+	#slideshow {
+		width: 35vw;
+	}
+
+	.carousel img {
+	    margin: 5vw;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>LT SciO - About</title>
+  <link href="CSS/docs.css" rel="stylesheet" type="text/css"/>
+   <link href="CSS/styles.css" rel="stylesheet" type="text/css"/>
+  <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Raleway|Roboto+Mono|Open+Sans|Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark" style="background-color: #a83232;">
+  <a class="navbar-brand" href="index.html">LT Science Olympiad</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+   <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html" id="login">Login/SignUp</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle  active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="display:none">Resources</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="calendar.html">Calendar & Schedule</a>
+          <a class="dropdown-item" href="study.html">Study</a>
+          <a class="dropdown-item" href="docs.html" id="activeDrop">Important Documents</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="settings.html" id="settings" style="display:none">Settings</a>
+      </li>
+    <li><button type="button" class="btn btn-light" id="logout" onclick="logOut()" style="display:none">Log Out</button></li>
+    </ul>
+    </div>
+    </nav>
+    <div>
+        <h1>Documents</h1>
+    </div>
+    <div class="docdown">
+      <h5 id="calendar_link"><a href="images/genius hour schedule.pdf" target="_blank" download>Click Here</a> to download GH practice schedule</h5>
+      <h5 id="calendar_link"><a href="images/science olympiad rules manual 2020.pdf" target="_blank" download>Click Here</a> to download the 2020 science olympiad rules manual</h5>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+        apiKey: "AIzaSyB5YD16nc_54JodRB2EDUyxomp6fiNAv_w",
+        authDomain: "science-olympiad-59f4e.firebaseapp.com",
+        databaseURL: "https://science-olympiad-59f4e.firebaseio.com",
+        projectId: "science-olympiad-59f4e",
+        storageBucket: "",
+        messagingSenderId: "873994726295",
+        appId: "1:873994726295:web:e512ba88fd877adf"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+#calendar {
+	border: 0;
+	width: 55vw;
+	height: auto; 
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2vw;
+	margin-bottom: 3vw;
+	border:0;
+	overflow: none;
+	font-family: 'Raleway', sans-serif;
+}
+
+#calendar_link{
+	text-align: center;
+	color: #454545;
+	font-family: 'Raleway', sans-serif;
+}
+
+#calendar_link a{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  padding-top: 15px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
