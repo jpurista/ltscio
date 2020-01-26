@@ -15,10 +15,10 @@ body {
  filter: invert(100%);
 }
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 421px) {
 #scio-logo {
 		margin-top: 20px;
-		width: 65vw;
+		width: 40vw;
 	}
 
 
@@ -39,10 +39,10 @@ body {
 	}
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 	#scio-logo {
 		margin-top: 20px;
-		width: 65vw;
+		width: 75vw;
 	}
 
 	#div-main {
