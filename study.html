@@ -4,7 +4,7 @@
 <head>
   <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>LT SciO - Study</title>
+	<title>Study | LT SciOly</title>
 	<link href="CSS/study.css" rel="stylesheet" type="text/css" />
    <link href="CSS/styles.css" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text|Mansalva|Raleway|Roboto+Mono|Open+Sans|Satisfy&display=swap" rel="stylesheet">
@@ -13,39 +13,43 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark" style="background-color: #a83232;">
-  <a class="navbar-brand" href="index.html">LT Science Olympiad</a>
- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-   <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.html" id="login">Login/SignUp</a>
-      </li>
-      <li class="nav-item dropdown active">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="display:none">Resources</a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="calendar.html">Calendar & Schedule</a>
-          <a class="dropdown-item" href="study.html" id="activeDrop">Study</a>
-          <a class="dropdown-item" href="docs.html">Important Documents</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="settings.html" id="settings" style="display:none">Settings</a>
-      </li>
-   	<li><button type="button" class="btn btn-light" id="logout" onclick="logOut()" style="display:none">Log Out</button></li>
-    </ul>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #a83232">
+      <a class="navbar-brand" href="index.html" id="header">
+        <span style="font-size: 1.2em;">LT Science Olympiad</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login/SignUp</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"style="display:none">Resources</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="calendar.html">Calendar</a>
+                <a class="dropdown-item" href="study.html">Study</a>
+                <a class="dropdown-item" href="docs.html">Important Documents</a>
+              </div>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="settings.html" id="settings" style="display:none">Settings</a>
+            </li>
+            <li>
+              <button type="button" class="btn btn-light" id="logout" onclick="logOut()" style="display:none">Log Out</button>
+            </li>
+        </ul>
+      </div>
     </nav>
     <div>
       <h1>Study Materials</h1>
